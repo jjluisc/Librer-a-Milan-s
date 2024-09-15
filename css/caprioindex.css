@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+}
+
+header{
+	background-color:#FECA29;
+
+
+}
+ul{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #FECA29;
+	padding: 5px;
+	margin: 0px 0px 5px 0px;
+}
+
+
+body h2{
+	font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    color: #FF8E29;
+	font-weight: 800;
+	text-align: center;
+}
+body h3,body h4{
+	font-family: 'cabin',sans-serif;
+	list-style-type: none;
+	color: rgb(0, 0, 0);
+}
+
+h5 a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-family: 'cabin',sans-serif;
+}
+
+body menu ul li a{
+	font-weight: 5rem;
+	font-size: larger;
+	font-family: 'cabin', sans-serif;
+	text-decoration:none ;
+	color: #E04F00;
+}
+
+ul{
+	list-style-type: none;
+}
+
+section table tr td{
+	font-family: cabin,sans-serif;
+	font-size: 1.6rem;
+}
+section table tr th{
+	font-family: cabin,sans-serif;
+	font-size: 1.6rem;
+
+}
+fieldset label{
+	font-family: roboto, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 1.5rem;
+}
+fieldset legend{
+	font-family: roboto,sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+}
+footer {
+	background-color:#FFDF7E;
+}
+
+
+.cont{
+    width: 100%;
+    display: flex;
+    position: relative;
+	margin: 10px 0px 0px 0px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+  
+    padding: 5px;
+    overflow-x: scroll;
+    overflow-x: visible;
+}
+@media (max-width:985px){
+    .cont{
+        flex-direction: column;
+    }
+}
+.card{
+    width: 80%;
+	height: 80%;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+	z-index: 0;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100px;
+    align-self: center;
+}
+
+.card h3{
+    padding: 15px;
+    text-align: center;
+}
+.card p{
+    line-height: 1.5;
+    font-family: 'roboto', sans-serif;
+    color: #6a6a6a;
+    padding: 10px;
+    font-weight: 400;
+}
+.cont a{
+    text-decoration: none;
+}
+.cuadro{
+	width: 100px;
+	height: 100px;
+	background: black;
+} 
+
+
+.tendencias_img--fluid{
+	width: 100%;
+}
+.tendencia{
+	background-color: #FECA29;
+}
+.submenu{
+	width: 100%;
+	position: relative;
+	display: flex;
+	padding: 2px 0px 2px 0px;
+	text-decoration: none;
+	list-style-type: none;
+}
+.submenu a{
+    color: #E04F00;
+    font-size: 1.2rem;
+    padding: 2px 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navegation{
+	background-color: #FECA29;
+	width: 100%;
+	height: 2rem;
+	margin-top: 0px;
+	position: relative;
+	transition: top 0.3s ease-in-out;
+}
+@media (min-height: 442px) {
+	.navegacion{
+	  position: fixed;
+	  top: 50px;
+	  z-index: 1;
+	}
+  }
+.navegation ul li a:hover {
+	color: #FF8E29;
+	font-weight: 3rem;
+}
+
+
+.marca{
+	background-color: #FECA29;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999;
+}
+.marca-flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.registro{
+	display: flex;
+	flex-direction: column;
+	font-weight: bolder;
+	border: none;
+
+}
+.login{
+    align-items: center;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px 30px;
+	justify-content: center;
+	position: relative;
+
+}
+.submenu a{
+	position: absolute;
+	float:left;
+	display: none;
+}
+.menu li:hover .submenu li a{
+	display: block;
+	position: relative;
+}
+
+.busqueda{
+ 		margin: auto;
+ 		float: center;
+}
+.logo{
+	float: left;
+}
+
+.user{
+	float: right;
+}
+
+.section{
+	position: relative;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: rgba(238, 238, 238, 1.0);
+}
+.maps{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.pie{
+	position: flex;
+	width: 100%;
+	bottom: 0px;
+	margin-top: 10rem;
+
+}
+
+#footer{
+	grid-area: footer;
+}
+#margenes-after-menu{
+	margin-top: 3rem;
+	margin-bottom: 0px;
+}
+#margenes{
+	margin-top: 10rem;
+	margin-bottom: 0px;
+}
+
