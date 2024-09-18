@@ -14,7 +14,7 @@ header{
 
 }
 ul{
-	position: relative;
+	position:static;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #FECA29;
@@ -87,7 +87,6 @@ footer {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-  
     padding: 5px;
     overflow-x: scroll;
     overflow-x: visible;
@@ -150,9 +149,10 @@ footer {
 	background-color: #FECA29;
 }
 .submenu{
-	width: 100%;
+	width: 20px;
 	position: relative;
-	display: flex;
+	display: block;
+	z-index: 100;
 	padding: 2px 0px 2px 0px;
 	text-decoration: none;
 	list-style-type: none;
@@ -160,7 +160,6 @@ footer {
 .submenu a{
     color: #E04F00;
     font-size: 1.2rem;
-    padding: 2px 5px;
     text-decoration: none;
     font-weight: 500;
 }
@@ -221,7 +220,6 @@ footer {
 
 }
 .submenu a{
-	position: absolute;
 	float:left;
 	display: none;
 }
