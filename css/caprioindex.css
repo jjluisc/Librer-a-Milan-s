@@ -202,10 +202,9 @@ footer {
 @media(max-width:500px){
     .trans-card{
         width: 40%;
-        height: 40%;
+        height: 50%;
         position: absolute;
-
-        transform: translate(-50%, -140%);
+        transform: translate(-50%, -120%);
     }
     .trans-card img{
         width: 30%;
