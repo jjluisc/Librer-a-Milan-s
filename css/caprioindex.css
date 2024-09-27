@@ -209,8 +209,7 @@ footer {
     .trans-card img{
         width: 30%;
         height: 40%;
-		overflow: visible;
-		;
+		object-fit: cover;
     }
 }
 .submenu{
