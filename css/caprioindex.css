@@ -197,6 +197,8 @@ footer {
 	.trans-card img{
         width: 30%;
         height: 40%;
+		;
+    }
 }
 @media(max-width:500px){
     .trans-card{
@@ -262,7 +264,7 @@ footer {
 }
 .marca-flex{
 	display: flex;
-	flex-direction: column;
+	flex-direction: flex;
 	align-items: center;
 }
 
