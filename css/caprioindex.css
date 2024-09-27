@@ -207,8 +207,8 @@ footer {
         transform: translate(-50%, -120%);
     }
     .trans-card img{
-        width: 30%;
-        height: 40%;
+        width: 40%;
+        height: 50%;
 		object-fit: cover;
     }
 }
