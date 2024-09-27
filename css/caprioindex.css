@@ -47,7 +47,7 @@ body menu ul li a{
 	font-size: larger;
 	font-family: 'cabin', sans-serif;
 	text-decoration:none ;
-	color: #E04F00;
+	color: #ffff;
 }
 
 ul{
@@ -166,7 +166,7 @@ footer {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-	box-shadow: 1px 1px 4px #37acfa;
+	box-shadow: 2px 1px 2px #000;
 
 }
 .trans-card img{
@@ -190,8 +190,6 @@ footer {
 		width: 40%;
         height: 40%;
 		position: absolute;
-		top: 40%;
-        left: 50%;
         transform: translate(-50%, -120%);
 	}
 	.trans-card img{
@@ -202,7 +200,7 @@ footer {
 @media(max-width:500px){
     .trans-card{
         width: 40%;
-        height: 50%;
+        height: 60%;
         position: absolute;
         transform: translate(-50%, -120%);
     }
@@ -222,7 +220,7 @@ footer {
 	list-style-type: none;
 }
 .submenu a{
-    color: #E04F00;
+    color: #ffff;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: 500;
@@ -243,7 +241,7 @@ footer {
 	}
   }
 .navegation ul li a:hover {
-	color: #FF8E29;
+	color: #1200af;
 	font-weight: 3rem;
 }
 
