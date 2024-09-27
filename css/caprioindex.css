@@ -197,7 +197,6 @@ footer {
 	.trans-card img{
         width: 30%;
         height: 40%;
-		;
     }
 }
 @media(max-width:500px){
@@ -212,6 +211,7 @@ footer {
     .trans-card img{
         width: 30%;
         height: 40%;
+		overflow: visible;
     }
 }
 .submenu{
